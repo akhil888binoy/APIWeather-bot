@@ -81,6 +81,7 @@
       <ui:HttpClient.Parameters>
         <InArgument x:TypeArguments="x:String" x:Key="q">London</InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="appid">33ea582ac777fdfc6cbbf6c67292da35</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="units">metric</InArgument>
       </ui:HttpClient.Parameters>
       <ui:HttpClient.UrlSegments>
         <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
